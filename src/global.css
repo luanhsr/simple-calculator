@@ -1,0 +1,11 @@
+:root {
+    --white: #FAF9FA;
+    --gray300: #999595;
+    --gray600: #4B4B4B;
+    --bgDisplay: #D6FF58;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
