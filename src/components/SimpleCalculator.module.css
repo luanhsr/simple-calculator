@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.boxMain {
+    width: 32.5rem;
+    height: 41.875rem;
+    background: var(--white);
+    align-items: center;
+    margin: 0 auto;
+}
+header , .displayCalc {
+   margin: 1rem 1rem; 
+   font-family: inter , sans-serif;
+}
+header h1 {
+    font-size: 1.25rem;
+}
+header p {
+    font-size: 0.75rem;
+    color: var(--gray300);
+}
+
+.boxMain .displayCalc {
+    margin: 0 auto;
+    width: 29.875rem;
+    height: 11.125rem;
+    background: var(--bgDisplay);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.boxMain .displayCalc strong{
+    font-size: 3rem;
+}
+.boxMain .displayCalc p {
+    font-size: 0.875rem;
+    text-align: center;
+    color: --var(--gray600);
+}
+

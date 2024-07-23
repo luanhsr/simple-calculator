@@ -10,8 +10,10 @@ export function MianCalculate () {
                 </header>
                 <main>
                 <div className={style.displayCalc}>
-                    <strong>₹ 10.000</strong>
-                    <p>Simple Interest</p>
+                    <div>
+                        <strong>₹ 10.000</strong>
+                        <p>Simple Interest</p>
+                    </div>
                 </div>
                 <div>
                     <form action="#" method="post">
